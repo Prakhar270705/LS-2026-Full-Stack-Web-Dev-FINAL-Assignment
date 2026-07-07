@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Dr. Ramesh Gupta",
+    "specialty": "Cardiologist",
+    "experience": "15 years",
+    "img": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=400&q=60"
+  },
+  {
+    "name": "Dr. Anjali Sharma",
+    "specialty": "Neurologist",
+    "experience": "10 years",
+    "img": "https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&w=400&q=60"
+  },
+  {
+    "name": "Dr. Vikas Singh",
+    "specialty": "Pediatrician",
+    "experience": "8 years",
+    "img": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&w=400&q=60"
+  },
+  {
+    "name": "Dr. Priya Verma",
+    "specialty": "Orthopedic Surgeon",
+    "experience": "12 years",
+    "img": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=400&q=60"
+  },
+  {
+    "name": "Dr. Suresh Yadav",
+    "specialty": "General Physician",
+    "experience": "20 years",
+    "img": "https://images.unsplash.com/photo-1582750433449-648ed127bb54?auto=format&fit=crop&w=400&q=60"
+  },
+  {
+    "name": "Dr. Neha Mishra",
+    "specialty": "Dermatologist",
+    "experience": "9 years",
+    "img": "https://images.unsplash.com/photo-1587351021355-a479a299d2f9?auto=format&fit=crop&w=400&q=60"
+  }
+]

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Doctors - CityCare Hospital</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="logo">CityCare Hospital</div>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="doctors.html">Doctors</a></li>
+    <li><a href="appointment.html">Appointment</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<section class="section">
+  <h2>Our Doctors</h2>
+  <div class="cards" id="doctorList"></div>
+</section>
+
+<footer>
+  <p>CityCare Hospital, MG Road, Gorakhpur, UP</p>
+</footer>
+
+<script>
+  fetch('doctors.json')
+    .then(res => res.json())
+    .then(data => {
+      const box = document.getElementById('doctorList');
+      data.forEach(doc => {
+        box.innerHTML += `
+          <div class="card doctor-card">
+            <img src="${doc.img}">
+            <h3>${doc.name}</h3>
+            <p>${doc.specialty}</p>
+            <p>${doc.experience} experience</p>
+          </div>`;
+      });
+    });
+</script>
+
+</body>
+</html>
